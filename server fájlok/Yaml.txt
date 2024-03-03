@@ -1,0 +1,118 @@
+##################################
+knx:
+##################################
+  light:
+    - name: "Nappali lámpa 1"
+      address: "1/0/1"
+      state_address: "1/0/2"
+      brightness_address: "1/0/3"
+      brightness_state_address: "1/0/4"
+      
+    - name: "Hálószoba lámpa 1"
+      address: "1/0/5"
+      state_address: "1/0/6"
+      brightness_address: "1/0/7"
+      brightness_state_address: "1/0/8"
+      
+    - name: "Konyha lámpa 1"
+      address: "1/0/9"
+      state_address: "1/0/10"
+      
+    - name: "Mosdó lámpa 1"
+      address: "1/0/11"
+      state_address: "1/0/12"
+      
+      #####lakas 2########################################################x
+    - name: "Nappali lámpa 2"
+      address: "2/0/1"
+      state_address: "2/0/2"
+      brightness_address: "2/0/3"
+      brightness_state_address: "2/0/4"
+      
+    - name: "Hálószoba lámpa 2"
+      address: "2/0/5"
+      state_address: "2/0/6"
+      brightness_address: "2/0/7"
+      brightness_state_address: "2/0/8"
+      
+    - name: "Konyha lámpa 2"
+      address: "2/0/9"
+      state_address: "2/0/10"
+      
+    - name: "Mosdó lámpa 2"
+      address: "2/0/11"
+      state_address: "2/0/12"
+      
+      #####lakas 3########################################################x
+    - name: "Nappali lámpa 3"
+      address: "3/0/1"
+      state_address: "3/0/2"
+      brightness_address: "3/0/3"
+      brightness_state_address: "3/0/4"
+      
+    - name: "Hálószoba lámpa 3"
+      address: "3/0/5"
+      state_address: "3/0/6"
+      brightness_address: "3/0/7"
+      brightness_state_address: "3/0/8"
+      
+    - name: "Konyha lámpa 3"
+      address: "3/0/9"
+      state_address: "3/0/10"
+      
+    - name: "Mosdó lámpa 3"
+      address: "3/0/11"
+      state_address: "3/0/12"
+      
+    
+  switch:
+    
+    - name: "kávéfőző 1"
+      address: "1/1/1"
+      state_address: "1/1/2"
+      
+    - name: "Vízforraló 1"
+      address: "1/1/3"
+      state_address: "1/1/4"
+      
+    - name: "Hajszárító 1"
+      address: "1/1/5"
+      state_address: "1/1/6"
+      
+      ####lakás2###
+    - name: "Kávégép 2"
+      address: "2/1/1"
+      state_address: "2/1/2"
+      
+    - name: "Vízforraló 2"
+      address: "2/1/3"
+      state_address: "2/1/4"
+      
+    - name: "Hajszárító 2"
+      address: "2/1/5"
+      state_address: "2/1/6"
+      
+      ####lakás3###
+    - name: "Kávégép 3"
+      address: "3/1/1"
+      state_address: "3/1/2"
+      
+    - name: "Vízforraló 3"
+      address: "3/1/3"
+      state_address: "3/1/4"
+      
+    - name: "Hajszárító 3"
+      address: "3/1/5"
+      state_address: "3/1/6"
+    
+  cover:
+    - name: "Nappali redőny"
+      move_long_address: "3/2/1"
+      move_short_address: "3/2/2"
+      position_address: "3/2/3"
+      position_state_address: "3/2/4"
+      travelling_time_up: 14
+      travelling_time_down: 14
+      
+      
+      
